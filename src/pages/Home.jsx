@@ -6,6 +6,7 @@ import SolutionsSections from "../components/home/SolutionsSections"
 import Nudge from "../components/home/Nudge"
 import ParentSection from "../components/home/ParentSection"
 import InsightsSection from "../components/home/InsightsSection"
+import Footer from "../components/common/Footer"
 
 const Home = () => {
   return (
@@ -15,8 +16,9 @@ const Home = () => {
          <AboutSection />
          <SolutionsSections />
          <Nudge />
-         <ParentSection />
+         {/* <ParentSection />
          <InsightsSection />
+         <Footer /> */}
     </>
   )
 }

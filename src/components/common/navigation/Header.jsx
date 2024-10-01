@@ -1,8 +1,14 @@
 import { Link, NavLink } from "react-router-dom"
 import logo from "../../../assets/logo.webp"
 import { IoSearchOutline } from "react-icons/io5";
+import { CgMenuGridO } from "react-icons/cg";
+import { useContext } from "react";
+import { sidebarContext } from "./navcontext";
 
 const Header = () => {
+  // eslint-disable-next-line no-unused-vars
+  const [ sidebarStatus, setSidebarStatus] = useContext(sidebarContext);
+
   return (
     <header>
              <div className="inner-row">
@@ -22,6 +28,10 @@ const Header = () => {
                                     </nav>
                                     <div className="action-btn">
                                               <Link to={"/"}><span><IoSearchOutline /></span> Find a Firm</Link>
+
+                                              <div className="menu-btn" onClick={() => setSidebarStatus(true)}>
+                                                          <span><CgMenuGridO /></span>
+                                              </div>
                                     </div>
                          </div>
              </div>
