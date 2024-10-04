@@ -518,10 +518,17 @@
             grid-template-columns: 1fr 1fr;
             gap: 30px;
       }
+      .parent-section-content{
+             width: 90%;
+      }
+      .insights-section-content .intro{
+              grid-template-columns: 1fr;
+      }
 }
 
 @media(max-width: 768px){
-      .hero-texts h1{
+      .hero-texts h1,
+      .parent-section-content h2{
             font-size: 50px;
       }
       .hero-vid-overlay{
@@ -535,7 +542,8 @@
              -ms-transform: translateY(20px);
              -o-transform: translateY(20px);
       }
-      .solutions-sector-row{
+      .solutions-sector-row,
+      .insights-row-content{
              grid-template-columns: 1fr;
       }
 
@@ -547,6 +555,26 @@
       }
       .number-moja h2{
               font-size: 55px;
+      }
+      .nudge-section{
+            background: linear-gradient(to right, rgba(0,0,0,0.75), rgba(0,0,0,0.65)), url("../assets/nudgeBg.jpg") no-repeat;
+            background-position : top;
+            background-size: cover;
+      }
+      .nudge-section-content h2{
+              width: 90%;
+              font-size: 60px;
+              text-align: center;
+              margin: auto;
+      }
+      .nudge-section-content p{
+             width: 90%;
+             text-align: center;
+             margin: 10px auto;
+      }
+      .nudge-btns{
+             flex-wrap: wrap;
+             justify-content: center;
       }
 }
 
@@ -561,7 +589,9 @@
               flex-wrap: wrap;
               justify-content: center;
        }
-       .hero-texts h1{
+       .hero-texts h1,
+       .parent-section-content h2,
+       .insights-section-content .intro h3{
              font-size: 36px;
              font-family: var(--font-medium);
        }
@@ -571,5 +601,11 @@
        }
        .about-section-content h2{
               font-size: 32px;
+       }
+       .nudge-section-content h2{
+             font-size: 45px;
+       }
+       .nudge-section-content p{
+             font-size: 18px;
        }
 }

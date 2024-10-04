@@ -16,9 +16,9 @@ const Home = () => {
          <AboutSection />
          <SolutionsSections />
          <Nudge />
-         {/* <ParentSection />
+         <ParentSection />
          <InsightsSection />
-         <Footer /> */}
+         <Footer />
     </>
   )
 }

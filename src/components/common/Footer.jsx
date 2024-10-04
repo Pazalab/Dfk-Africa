@@ -24,7 +24,7 @@ const Footer = () => {
 
                                                                  <ul>
                                                                           <li><Link to={"/"}>Home</Link></li>
-                                                                          <li><Link to={"/"}>Who We Are</Link></li>
+                                                                          <li><Link to={"/dfk-africa"}>Who We Are</Link></li>
                                                                           <li><Link to={"/"}>What We Do</Link></li>
                                                                           <li><Link to={"/"}>Membership</Link></li>
                                                                           <li><Link to={"/"}>Insights</Link></li>

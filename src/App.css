@@ -359,4 +359,13 @@ footer{
      .sidebar-content{
             width: 80%;
      }
+     .footer-section-moja{
+           grid-template-columns: 1fr;
+     }
+}
+
+@media(max-width: 530px){
+     .footer-column-two{
+           grid-template-columns: 1fr;
+     }
 }
