@@ -1,0 +1,77 @@
+.solutions-hero{
+     height: 80vh;
+}
+
+.solutions-hero-content{
+     height: 80vh;
+     background: linear-gradient(to right, rgba(0,0,0,0.7), rgba(0,0,0,0.2)), url("../assets/solutions2.jpg") no-repeat;
+     border-radius: 20px;
+     -webkit-border-radius: 20px;
+     -moz-border-radius: 20px;
+     -ms-border-radius: 20px;
+     -o-border-radius: 20px;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    padding-left: 5%;
+}
+
+.solutions-hero-content h2{
+     width: 75%;
+     font-size: 45px;
+     font-family: var(--font-medium);
+     color: whitesmoke;
+     line-height: 1.5;
+}
+
+
+.solutions-body{
+     padding: 80px 0px 100px 0px;
+}
+
+.solutions-tabs ul{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+
+.solutions-tabs ul li{
+     border: 1px solid gainsboro;
+     padding: 15px 40px;
+     cursor: pointer;
+     border-radius: 8px;
+     -webkit-border-radius: 8px;
+     -moz-border-radius: 8px;
+     -ms-border-radius: 8px;
+     -o-border-radius: 8px;
+}
+
+.solutions-tabs ul li.active,
+.solutions-tabs ul li:hover{
+    background: var(--dfk-green);
+    color: white;
+}
+.solutions-tab-content{
+    margin-top: 40px;
+}
+.solutions-tab-content h2{
+     font-size: 35px;
+     font-family: var(--font-medium);
+     margin-bottom: 10px;
+}
+
+.solutions-tab-content p{
+    margin-bottom: 20px;
+    line-height: 1.5;
+}
+
+@media(max-width: 768px){
+     .solutions-hero-content h2{
+             font-size: 35px;
+     }
+     .solutions-tabs ul{
+           gap: 20px;
+     }
+}

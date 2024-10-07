@@ -16,13 +16,13 @@ const SolutionsSections = () => {
                                         <p>DFK Africa member firms deliver comprehensive business and financial solutions, empowering organizations to optimize performance, drive growth, and navigate complex challenges with confidence.</p>
 
                                         <div className="solutions-sector-row">
-                                                   { solutions.map(sector => 
+                                                   { solutions.slice(0, 4).map(sector => 
                                                          <div className="sector-moja" key={sector.id}>
                                                                     <h4>{sector.name}</h4>
                                                                     {/* <p>{sector.description}</p> */}
                                                          </div>
                                                    )}
-                                                   <Link to={"/solutions"}>Explore More <span><GoArrowUpRight /></span></Link>
+                                                   <Link to={"/our-solutions/"}>Explore More <span><GoArrowUpRight /></span></Link>
                                         </div>
                                </div>
                      </div>

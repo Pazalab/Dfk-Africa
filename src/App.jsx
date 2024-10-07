@@ -5,6 +5,7 @@ import Home from './pages/Home';
 import About from './pages/About';
 import Contact from './pages/Contact';
 import Solutions from './pages/Solutions';
+import Resources from './pages/Resources';
 
 function App() {
   const location = useLocation();
@@ -19,6 +20,7 @@ function App() {
              <Route path='/dfk-africa/'  element={<About />} />
              <Route path='/get-in-touch/' element={<Contact />} />
              <Route path='/our-solutions'  element={<Solutions />} />
+             <Route path='/resources/' element={<Resources />} />
     </Routes>
   )
 }
