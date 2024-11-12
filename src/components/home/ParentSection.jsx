@@ -16,7 +16,7 @@ const ParentSection = () => {
                                                     <p>This is DFK. <span>United</span>, <span>empowered</span>, and <span>leading globally</span>.</p>
                                          </div>
 
-                                         <Link to={"/"}>Explore  <span><GoArrowUpRight /></span></Link>
+                                         <Link to={"https://dfk.com/"} target="_blank">Explore  <span><GoArrowUpRight /></span></Link>
                             </div>
                 </div>
     </div>

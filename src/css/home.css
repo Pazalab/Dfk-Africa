@@ -291,6 +291,47 @@
       margin-left: 5%;
 }
 
+.members-row{
+      margin-top: 80px;
+}
+.members-content h2{
+       font-size: 50px;
+       font-family: var(--font-bold);
+       text-align: center;
+}
+.members-content-row{
+      display: flex;
+      gap: 50px;
+      flex-wrap: wrap;
+      margin-top: 50px;
+      justify-content: center;
+}
+.members-content-row img{
+       width: 180px;
+       height: 90px;
+       object-fit: contain;
+}
+.members-content .membership-link{
+       display: flex;
+       align-items: center;
+}
+.members-content a{
+       text-align: center;
+       display: inline-flex;
+       width: 180px;
+       margin: 40px auto 0 auto;
+       border-radius: 7px;
+       background: var(--dfk-green);
+       color: white;
+       height: 55px;
+       justify-content: center;
+       align-items: center;
+       -webkit-border-radius: 7px;
+       -moz-border-radius: 7px;
+       -ms-border-radius: 7px;
+       -o-border-radius: 7px;
+}
+
 .nudge-section{
       padding: 180px 0;
       background: linear-gradient(to right, rgba(0,0,0,0.75), rgba(0,0,0,0.15)), url("../assets/nudgeBg.jpg") no-repeat;

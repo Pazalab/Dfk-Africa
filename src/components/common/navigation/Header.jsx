@@ -27,7 +27,7 @@ const Header = () => {
                                               </ul>
                                     </nav>
                                     <div className="action-btn">
-                                              <Link to={"/"}><span><IoSearchOutline /></span> Find a Firm</Link>
+                                              <Link to={"/member-firms"}><span><IoSearchOutline /></span> Find a Firm</Link>
 
                                               <div className="menu-btn" onClick={() => setSidebarStatus(true)}>
                                                           <span><CgMenuGridO /></span>

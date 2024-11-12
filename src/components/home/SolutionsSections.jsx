@@ -2,6 +2,7 @@ import { Link } from "react-router-dom"
 import solutions1 from "../../assets/solutions1.jpg"
 import { solutions } from "../../data/solutions"
 import { GoArrowUpRight } from "react-icons/go";
+import { partners } from "../../data/partners";
 const SolutionsSections = () => {
   return (
     <div className="solutions-section">
@@ -49,6 +50,23 @@ const SolutionsSections = () => {
                                                </div>
                                    </div>
                          </div>
+             </div>
+
+             <div className="members-row">
+                        <div className="inner-row">
+                                    <div className="members-content">
+                                                <h2>Our Members</h2>
+
+                                                <div className="members-content-row">
+                                                            { partners.map(item => 
+                                                                  <img src={item.image} alt=""  key={item.id}/>
+                                                            )}
+                                                </div>
+                                                <div className="membership-link">
+                                                          <Link to={"/member-firms/"}>Explore More</Link>
+                                                </div>
+                                    </div>
+                        </div>
              </div>
     </div>
   )

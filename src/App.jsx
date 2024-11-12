@@ -6,6 +6,7 @@ import About from './pages/About';
 import Contact from './pages/Contact';
 import Solutions from './pages/Solutions';
 import Resources from './pages/Resources';
+import MemberFirms from './pages/MemberFirms';
 
 function App() {
   const location = useLocation();
@@ -21,6 +22,7 @@ function App() {
              <Route path='/get-in-touch/' element={<Contact />} />
              <Route path='/our-solutions'  element={<Solutions />} />
              <Route path='/resources/' element={<Resources />} />
+             <Route path="/member-firms/" element={<MemberFirms />} />
     </Routes>
   )
 }
