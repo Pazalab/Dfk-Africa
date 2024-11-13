@@ -24,10 +24,10 @@ const Footer = () => {
 
                                                                  <ul>
                                                                           <li><Link to={"/"}>Home</Link></li>
-                                                                          <li><Link to={"/dfk-africa"}>Who We Are</Link></li>
-                                                                          <li><Link to={"/"}>What We Do</Link></li>
-                                                                          <li><Link to={"/"}>Membership</Link></li>
-                                                                          <li><Link to={"/"}>Insights</Link></li>
+                                                                          <li><Link to={"/dfk-africa/"}>Who We Are</Link></li>
+                                                                          <li><Link to={"/our-solutions/"}>What We Do</Link></li>
+                                                                          <li><Link to={"/member-firms/"}>Membership</Link></li>
+                                                                          <li><Link to={"/resources/"}>Insights</Link></li>
                                                                  </ul>
                                                       </div>
                                                       <div className="footer-inner-column">

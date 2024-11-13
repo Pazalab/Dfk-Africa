@@ -1,1 +1,99 @@
-.member
+.member-firms-body{
+     padding: 70px 0 100px 0;
+}
+
+.member-firms-content{
+     width: 980px;
+     text-align: center;
+     margin: auto;
+}
+.member-firms-content h2{
+    font-size: 60px;
+      font-family: var(--font-medium);
+      margin-bottom: 10px;
+}
+
+.member-firms-content p{
+     font-size: 18px;
+     line-height: 1.6;
+}
+
+.member-firms-content a{
+     width: 220px;
+     height: 55px;
+     display: flex;
+     background: var(--dfk-green);
+     margin: 20px auto;
+     align-items: center;
+     justify-content: center;
+     color: whitesmoke;
+     font-family: var(--font-medium);
+     font-size: 16px;
+     border-radius: 7px;
+     -webkit-border-radius: 7px;
+     -moz-border-radius: 7px;
+     -ms-border-radius: 7px;
+     -o-border-radius: 7px;
+}
+
+.member-body-row{
+     border-top: 1px solid rgba(220, 220, 220, 0.532);
+     margin-top: 60px;
+     display: grid;
+     grid-template-columns: 1fr 1fr;
+     gap: 50px;
+     padding-top: 60px;
+}
+
+.member-moja{
+    background: #e0e3df20;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    padding: 30px;
+}
+
+.member-moja img{
+       max-width: 200px;
+       height: 80px;
+       display: block;
+       object-fit: contain;
+}
+.member-moja h3{
+      font-size: 24px;
+      font-family: var(--font-medium);
+      margin-bottom: 10px;
+}
+.member-moja p{
+      font-size: 17px;
+      line-height: 1.5;
+}
+.member-moja h4{
+     margin: 10px 0;
+     font-size: 18px;
+}
+.member-moja h4 span{
+      font-weight: 400;
+}
+.member-moja a{
+      font-size: 16px;
+      color: var(--dfk-green);
+}
+
+@media(max-width: 1090px){
+     .member-firms-content{
+            width: 100%;
+     }
+}
+
+@media(max-width: 768px){
+      .member-body-row{
+             grid-template-columns: 1fr;
+             gap: 30px;
+      }
+      .member-firms-content h2{
+           font-size: 40px;
+      }
+}
