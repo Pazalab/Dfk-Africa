@@ -82,6 +82,39 @@
       color: var(--dfk-green);
 }
 
+
+
+.business-section{
+     margin-top: 40px;
+}
+
+.business-section ol,
+.business-section ul{
+     width: 95%;
+     margin:10px  auto;
+     list-style-type: disc;
+}
+
+.business-section ol li,
+.business-section ul li{
+     font-size: 16px;
+     margin-bottom: 10px;
+}
+.business-section p{
+     margin-bottom: 10px;
+     line-height: 1.5;
+}
+
+
+
+
+
+
+
+
+
+
+
 @media(max-width: 1090px){
      .member-firms-content{
             width: 100%;

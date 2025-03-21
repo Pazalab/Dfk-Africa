@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom"
 import { FaFacebookF, FaXTwitter, FaInstagram, FaLinkedinIn } from "react-icons/fa6"
+import logo from '../../assets/logo_white.png'
 const Footer = () => {
   return (
     <footer>
@@ -7,7 +8,9 @@ const Footer = () => {
                        <div className="footer-content">
                                  <div className="footer-section-moja">
                                            <div className="footer-column">
-                                                     <h2>DFK Africa</h2>
+                                                     <Link to={"/"} className="logo">
+                                                              <img src={logo} alt="" />
+                                                     </Link>
                                                      <p>An association of independent accounting and business advisory firms in Africa, with national connections and global reach to drive success at every level.</p>
                                                      <div className="footer-social-links">
                                                               <ul>

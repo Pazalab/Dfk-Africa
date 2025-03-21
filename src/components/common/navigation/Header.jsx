@@ -1,5 +1,5 @@
 import { Link, NavLink } from "react-router-dom"
-import logo from "../../../assets/logo.webp"
+import logo from "../../../assets/logo.png"
 //import { IoSearchOutline } from "react-icons/io5";
 import { CgMenuGridO } from "react-icons/cg";
 import { useContext, useEffect, useRef, useState } from "react";
@@ -36,7 +36,7 @@ const Header = () => {
                                                                    <div  className={ dropdownStatus ? "dropdown active" : "dropdown"}>
                                                                             <ul>
                                                                                       <li><Link to={"/member-firms"}>Find a Firm</Link></li>
-                                                                                      <li><Link to={"/"}>Countries</Link></li>
+                                                                                      {/* <li><Link to={"/"}>Countries</Link></li> */}
                                                                             </ul>
                                                                    </div>
                                                         </li>

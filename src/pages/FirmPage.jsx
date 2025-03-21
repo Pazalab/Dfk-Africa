@@ -55,6 +55,44 @@ const FirmPage = () => {
                                                                    )}
                                                               </div>
                                                         </div>
+
+                                                      { data.business && 
+                                                              <div className="business-section">
+                                                                        <h2>{data.business.title}</h2>
+                                                                        { data.business.intro && <p>{data.business.intro}</p>}
+                                                                        { data.business.entities && 
+                                                                                  <ol>
+                                                                                           { data.business.entities.map(item =>
+                                                                                                   <li key={item}>{item}</li>
+                                                                                           )}
+                                                                                  </ol>
+                                                                        }
+
+                                                                        { data.business.description && <p>{data.business.description}</p>}
+
+                                                                        { data.business.descriptions && 
+                                                                              <div className="descriptions-list">
+                                                                                         <ul>
+                                                                                                 { data.business.descriptions.map(item => <li key={item}>{item}</li>)}
+                                                                                         </ul>
+                                                                              </div>
+                                                                        }
+
+                                                                        { data.business.categories && 
+                                                                               <div className="categories-list">
+                                                                                           <h4>{data.business.categories.title}</h4>
+                                                                                           <ul>
+                                                                                                     { data.business.categories.list.map(item => 
+                                                                                                         <li key={item}>{item}</li>
+                                                                                                     )}
+                                                                                           </ul>
+                                                                               </div>
+                                                                        }
+                                                                        {
+                                                                              data.business.outro && <p>{data.business.outro}</p>
+                                                                        }
+                                                              </div>
+                                                      }
                                              </div>
                                  </div>
                      </div>

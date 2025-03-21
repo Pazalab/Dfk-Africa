@@ -129,7 +129,8 @@
 .member-team-section{
     margin-top: 40px;
 }
-.member-team-section h2{
+.member-team-section h2,
+.business-section h2{
     font-size: 40px;
     margin-bottom: 20px;
     padding-bottom: 10px;
@@ -174,9 +175,6 @@
      -ms-transform: scale(1.1);
      -o-transform: scale(1.1);
 }
-
-
-
 
 
 

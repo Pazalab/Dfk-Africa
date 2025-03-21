@@ -8,6 +8,7 @@ export const members = [
         country: "Kenya",
         url: "/dfk-member/kkco-east-africa-llp",
         url_param: "kkco-east-africa-llp",
+       
         services: [
              {
                  id: 0,
@@ -75,6 +76,17 @@ export const members = [
         country: "Nigeria",
         url: "/dfk-member/adebisi-oderinde-and-co",
         url_param: "adebisi-oderinde-and-co",
+        business: {
+              title: "Doing Business in Nigeria",
+              intro: "Under Nigerian Law, business activities may be undertaken in Nigeria through any of the following entities: ",
+              entities: ["Private or Public Limited Liability Company", "Unlimited Liability Company", " Company Limited by Guarantee", "Partnership/Firm", "Sole Proprietorship", "Incorporated Trustees"],
+              description: "Specifically, the Companies and Allied Matters Act, Cap C20, Laws of the Federation of Nigeria (“LFN”) 2004 (“CAMA”) regulates the formation of business organizations, save for partnership/firm and sole proprietorship. Section 54 of CAMA provides that in order to ‘carry on business’ in Nigeria, a foreign company must be incorporated in Nigeria as an entity under the provisions of CAMA. The Nigerian company upon incorporation is a separate legal entity from its overseas parent. However, a foreign company may apply to the Federal Executive Council for exemption from the requirement to register in Nigeria if it belongs to one of the categories listed in Section 56 (1) of CAMA. ",
+              categories:{
+                   title: "The Categories are as follows:",
+                   list: ["Foreign companies invited to Nigeria by or with the approval of the Federal Government to execute any specified individual project;", "Foreign companies which are in Nigeria for the execution of specific individual loan projects on behalf of a donor country or international organisation; ", "Foreign Government-owned companies engaged solely in export promotion activities;", "Engineering consultants and technical experts engaged in any individual specialist project under contract with any of the governments in the Federation or any of their agencies or with any other body or person, where such contract has been approved by the Federal Government."]
+              },
+              outro: "Under Nigerian company law, a company having a share capital may either be registered as a private limited liability company, a public limited liability company or an unlimited company. Most non-Nigerians desirous of setting up entities in Nigeria usually establish private limited liability companies, at inception and may then, based on their business models, convert these to public limited liability entities at a later date. "
+        },
         services: [
             {
                 id: 0,
@@ -130,6 +142,12 @@ export const members = [
         website_link: "https://salfordassociates.com",
         url: "/dfk-member/salford-associates-llp",
         url_param: "salford-associates-llp",
+        business: {
+               title: "Doing Business in Mauritius",
+               intro: "Mauritius is one of the most business-friendly countries on the African Continent. It has a strong framework for international business –  with free trade agreements in place (SADC, COMESA, CECPA, AfCFTA, Mauritius-China FTA), 29 Investment Promotion and Protection Agreements, and 45 tax treaties. There is:",
+               entities: ["No exchange control", "No restriction on repatriation of profits/dividends", "No tax on dividends and capital gains tax"],
+               outro: "The country ranks 1st in Africa and 13th globally for Ease of Doing Business (World Bank’s 2020 report)"
+        },
         services: [
              {
                 id: 0,
@@ -165,6 +183,12 @@ export const members = [
         website_link: "https://rcszm.com/",
         url: "/dfk-member/ronald-corporate-services",
         url_param: "ronald-corporate-services",
+        business: {
+               title: "Doing Business in Zambia",
+               intro: "In Zambia businesses are regulated by different pieces of legislation.",
+               entities: ["Profit making business are regulated by the Companies Act No. 10 of 2017. These Companies include Private Companies Limited by Shares, Public Limited Companies and Companies Limited by Guarantee.", "All Companies Limited by Shares are first registered with Patents and Companies Registration Agency (PACRA).", "Depending on the nature of the business, Companies are further registered under appropriate pieces of legislation. For example financial institutions are also registered under the Banking and Financial Services Act and they are regulated by the Bank of Zambia.", "Insurance Companies are registered and the Pensions and Insurance Authority.", "Non profit Organizations are regulated by the Non Governmental Organization Act and they fall under the Ministry of Community and Social Development", "There’s also an option of carrying on business as a Sole Trader under the Business Names Act"],
+               outro: "Finally all businesses are supposed to be registered with the Zambia Revenue Authority for Tax Purposes. It is a legal requirement for all companies with employees to be registered with the National Pension Scheme Authority, the Workers Compensation Control Board, the National Health Insurance Management Authority and Companies must obtain the appropriate business permit from the City Council."
+        },
         services: [
              {
                 id: 0,
@@ -225,6 +249,20 @@ export const members = [
         website_link: "https://jpmagson.com/",
         url: "/dfk-member/jp-magson",
         url_param: "jp-magson",
+        business: {
+              title: "Doing Business in Uganda",
+              intro: "Uganda, known as the Pearl of Africa, offers a wealth of opportunities for entrepreneurs and investors. It boasts a young and dynamic population, a growing middle class, and a strategic location within East Africa, making it a promising business destination. The economy is resilient and growing, particularly in agriculture, tourism, manufacturing, and technology. ",
+              descriptions: [
+                   "The government supports investment through incentives like tax holidays and reduced import duties.",
+                   "A prime example is the agricultural sector, which holds immense potential in Uganda due to its fertile land and favorable climate conditions. ",
+                   "Industries centered around exports, such as coffee, tea, and horticulture, have witnessed considerable expansion in recent times. They not only survive but also flourish and expand. ",
+                   "Uganda's business registration is governed by the Companies Act, 2012. ",
+                   "Under Section 4, any individual or group can form a company by subscribing to a memorandum of association.",
+                   "Section 18 requires the completion of the form in the Second Schedule, after which the Registrar issues a certificate of incorporation (Section 19), serving as conclusive evidence of compliance. Companies can be private, public, limited by guarantee, or unlimited.",
+                   "All companies must maintain accurate, up-to-date financial records to reflect their true financial position. This includes preparing annual financial statements and, for holding companies, consolidated group accounts. Financial records should be clear, complete, and available for inspection when required. Independent auditors must be appointed to review these records, ensuring accuracy and compliance with accounting standards. Annual returns must be filed with URSB, providing a snapshot of the company’s financial health. Foreign companies must register locally and file returns on their operations within Uganda.",
+                   "The Uganda Revenue Authority (URA) manages tax-related matters, including VAT, corporate income tax, and PAYE. Employers with five or more staff should register with the National Social Security Fund (NSSF) and make contributions toward their employees' retirement benefits. The Uganda Investment Authority (UIA) handles investment licensing and offers support services for both domestic and foreign investors. Financial institutions must follow guidelines set by the Bank of Uganda (BOU), while manufacturers and importers are required to obtain certification from the Uganda National Bureau of Standards (UNBS). Environmental assessments and compliance should fall under the jurisdiction of the National Environment Management Authority (NEMA). Additionally, sector-specific regulators such as the Uganda Communications Commission (UCC) for telecommunications and the Electricity Regulatory Authority (ERA) for energy businesses ensure adherence to industry-specific rules."
+              ]
+        },
         services: [
              {
                 id: 0,
@@ -294,6 +332,16 @@ export const members = [
         country: "Ghana",
         url: "/dfk-member/jonad-associates",
         url_param: "jonad-associates",
+        business: {
+              title: "Doing Business in Ghana",
+              intro: "Ghana is the world’s second-largest cocoa producer behind Ivory Coast and Africa’s biggest gold miner. It is one of the continent’s fastest-growing economies and has made major progress in the attainment and consolidation of growth.",
+              descriptions: [
+                     "Significant progress has been made in poverty reduction. In fact, Ghana is the first country in Sub-Saharan Africa to achieve the Millennium Development Goal 1, which is the target of halving extreme poverty- UNDP 2021.",
+                     "Today, Ghana is not only one of the best places for doing business in West Africa according to the World Bank’s Ease of Doing Business Report 2020 but also the most resilient economy in West Africa according to the EY African Attractiveness Index.",
+                     "Combining a conducive business environment, committed and progressive government-private sector participation, political stability, transparent regulations, and a thriving private sector, Ghana presents one of the continent’s most favorable economic environments for investors seeking to do business in Africa.",
+                     "Ghana abounds with investment opportunities and the government is committed to implementing policies that reduce the general cost of doing business to help investors establish and expand their operations."
+              ]
+        },
         services: [
             {
                 id: 0,
