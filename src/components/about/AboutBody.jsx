@@ -1,6 +1,7 @@
 import { members } from "../../data/partners.js"
-import { Link } from "react-router-dom"
+import { Link, useNavigate } from "react-router-dom"
 const AboutBody = () => {
+  const navigate = useNavigate();
   return (
     <div className="about-body">
              <div className="inner-row">
@@ -12,11 +13,11 @@ const AboutBody = () => {
 
                        <div className="members-row">
                                     <div className="members-content">
-                                                <h2>Our Members</h2>
+                                                <h2>DFK Members</h2>
 
                                                 <div className="members-content-row">
                                                             { members.map(item => 
-                                                                  <img src={item.image} alt=""  key={item.id}/>
+                                                                  <img src={item.image} alt=""  key={item.id} onClick={() => navigate(item.url) }/>
                                                             )}
                                                 </div>
                                                 <div className="membership-link">

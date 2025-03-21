@@ -10,7 +10,7 @@ const HeroSection = () => {
                                                   <h1>Driving Business Growth in Africa.</h1>
                                                   <div className="hero-btns">
                                                              <Link to={"/member-firms/"}>Explore Firms</Link>
-                                                             <Link to={'/get-in-touch/'}>Get in Touch</Link>
+                                                             <Link to={'/contact-us/'}>Get in Touch</Link>
                                                   </div>
                                            </div>
                                            <p>Become part of DFK Africa to tap into a global network of accounting firms that share your values and commitment to international clients. Collaborate proactively to access exclusive insights, technical expertise, and effective strategies that will elevate your practice and broaden your global presence.</p>

@@ -41,6 +41,7 @@ const FirmPage = () => {
                                                                   </ul>
                                                          </div>
 
+                                                        { data.team.length > 0 && 
                                                         <div className="member-team-section">
                                                               <h2>Meet the Leadership Team</h2>
                                                              <div className="team-row">
@@ -55,6 +56,7 @@ const FirmPage = () => {
                                                                    )}
                                                               </div>
                                                         </div>
+                                                        }
 
                                                       { data.business && 
                                                               <div className="business-section">
