@@ -16,15 +16,22 @@ const MemberFirms = () => {
                                </div>
 
                                <div className="member-body-row">
-                                        { members.map(item =>
-                                               <div className="member-moja" key={item.id}>
-                                                           <img src={item.image} alt="" />
-                                                           <h3>{item.name}</h3>
-                                                           <p>{item.description}</p>
-                                                           <h4>Country: <span>{item.country}</span></h4>
-                                                           <Link to={`${item.link}`} target="_blank">Website Link</Link>
-                                               </div>
-                                        )}
+                                         { members.map(item => 
+                                                                  <div className="member-content-moja" key={item.id}>
+                                                                       <div className="logo-area">
+                                                                                  <img src={item.image} alt="" />
+                                                                       </div>
+                                                                       <div className="member-content-texts">
+                                                                                  <h3>{item.name}</h3>
+                                                                                  <h4>{item.country}</h4>
+                                                                                  <p>{item.description}</p>
+
+                                                                                  <div className="link-btn">
+                                                                                             <Link to={item.url}>Explore</Link>
+                                                                                  </div>
+                                                                       </div>
+                                                            </div>
+                                                            )}
                                </div>
                     </div>
            </div>

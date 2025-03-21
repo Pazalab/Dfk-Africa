@@ -380,6 +380,10 @@
       -o-border-radius: 16px;
       background: #f0f9f46a;
 }
+.member-content-moja img{
+      object-fit: contain;
+      height: 80px;
+}
 .member-content-moja .logo-area{
         height: 200px;
         display: flex;
