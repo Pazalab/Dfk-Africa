@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom"
 import Navbar from "../components/common/navigation/Navbar"
 import "../css/membership.css"
-import { partners } from "../data/partners"
+import { members } from "../data/partners"
 import Footer from "../components/common/Footer"
 const MemberFirms = () => {
   return (
@@ -16,7 +16,7 @@ const MemberFirms = () => {
                                </div>
 
                                <div className="member-body-row">
-                                        { partners.map(item =>
+                                        { members.map(item =>
                                                <div className="member-moja" key={item.id}>
                                                            <img src={item.image} alt="" />
                                                            <h3>{item.name}</h3>

@@ -1,4 +1,4 @@
-import { partners } from "../../data/partners.js"
+import { members } from "../../data/partners.js"
 import { Link } from "react-router-dom"
 const AboutBody = () => {
   return (
@@ -15,7 +15,7 @@ const AboutBody = () => {
                                                 <h2>Our Members</h2>
 
                                                 <div className="members-content-row">
-                                                            { partners.map(item => 
+                                                            { members.map(item => 
                                                                   <img src={item.image} alt=""  key={item.id}/>
                                                             )}
                                                 </div>

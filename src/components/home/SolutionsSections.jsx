@@ -2,7 +2,8 @@ import { Link } from "react-router-dom"
 import solutions1 from "../../assets/solutions1.jpg"
 import { solutions } from "../../data/solutions"
 import { GoArrowUpRight } from "react-icons/go";
-import { partners } from "../../data/partners";
+import { members } from "../../data/partners";
+
 const SolutionsSections = () => {
   return (
     <div className="solutions-section">
@@ -32,22 +33,32 @@ const SolutionsSections = () => {
              <div className="numbers-row">
                          <div className="inner-row">
                                    <div className="numbers-row-content">
-                                             <div className="number-moja">
-                                                       <h2>20</h2>
-                                                       <h4>Members</h4>
+                                             <div className="numbers-row-column">
+                                                      <div className="number-moja top">
+                                                                <h2>20</h2>
+                                                                <h4>Members</h4>
+                                                      </div>
+                                                      <div className="number-moja">
+                                                                 <h2>34</h2>
+                                                                 <h4>Offices</h4>
+                                                       </div>
                                              </div>
-                                             <div className="number-moja">
-                                                       <h2>34</h2>
-                                                       <h4>Offices</h4>
+                                             <div className="numbers-circle">
+                                                       <div className="number-circle-texts">
+                                                                 <h3>Empowering African Businesses with Premier Accounting Solutions.</h3>
+                                                                 <span className="overshadow"></span>
+                                                       </div>
                                              </div>
-                                              <div className="number-moja">
-                                                      <h2>1070</h2>
-                                                       <h4>Professional Staff</h4>
-                                              </div>
-                                               <div className="number-moja">
-                                                          <h2>117</h2>
-                                                          <h4>Partners</h4>
-                                               </div>
+                                             <div className="numbers-row-column">
+                                                     <div className="number-moja top">
+                                                              <h2>1070</h2>
+                                                               <h4>Professional Staff</h4>
+                                                      </div>
+                                                       <div className="number-moja">
+                                                                  <h2>117</h2>
+                                                                  <h4>Partners</h4>
+                                                       </div>
+                                             </div>
                                    </div>
                          </div>
              </div>
@@ -55,15 +66,28 @@ const SolutionsSections = () => {
              <div className="members-row">
                         <div className="inner-row">
                                     <div className="members-content">
-                                                <h2>Our Members</h2>
+                                                <h2>DFK Africa Members</h2>
 
                                                 <div className="members-content-row">
-                                                            { partners.map(item => 
-                                                                  <img src={item.image} alt=""  key={item.id}/>
+                                                            { members.map(item => 
+                                                                  <div className="member-content-moja" key={item.id}>
+                                                                       <div className="logo-area">
+                                                                                  <img src={item.image} alt="" />
+                                                                       </div>
+                                                                       <div className="member-content-texts">
+                                                                                  <h3>{item.name}</h3>
+                                                                                  <h4>{item.country}</h4>
+                                                                                  <p>{item.description}</p>
+
+                                                                                  <div className="link-btn">
+                                                                                             <Link to={item.url}>Explore</Link>
+                                                                                  </div>
+                                                                       </div>
+                                                            </div>
                                                             )}
                                                 </div>
                                                 <div className="membership-link">
-                                                          <Link to={"/member-firms/"}>Explore More</Link>
+                                                          <Link to={"/member-firms/"}>Explore All Firms</Link>
                                                 </div>
                                     </div>
                         </div>

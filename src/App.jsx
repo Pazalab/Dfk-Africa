@@ -7,6 +7,7 @@ import Contact from './pages/Contact';
 import Solutions from './pages/Solutions';
 import Resources from './pages/Resources';
 import MemberFirms from './pages/MemberFirms';
+import FirmPage from './pages/FirmPage';
 
 function App() {
   const location = useLocation();
@@ -19,10 +20,11 @@ function App() {
     <Routes>
              <Route path='/' element={<Home />} />
              <Route path='/dfk-africa/'  element={<About />} />
-             <Route path='/get-in-touch/' element={<Contact />} />
+             <Route path='/contact-us/' element={<Contact />} />
              <Route path='/our-solutions'  element={<Solutions />} />
-             <Route path='/resources/' element={<Resources />} />
+             <Route path='/insights/' element={<Resources />} />
              <Route path="/member-firms/" element={<MemberFirms />} />
+             <Route path='/dfk-member/:name' element={<FirmPage />} />
     </Routes>
   )
 }
