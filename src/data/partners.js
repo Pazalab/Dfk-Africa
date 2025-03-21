@@ -383,8 +383,146 @@ export const members = [
             }
         ]
     },
-    // {
-    //     id: 6,
-    //     image: "/partners/cmb.png"
-    // }
+    {
+        id: 68,
+        image: "/partners/giwa-osagie.png",
+        country: "Nigeria",
+        name: "Giwa- Osagie & Co",
+        description: "Giwa-Osagie & Co is a leading law firm in Nigeria, providing expert legal services in corporate law, dispute resolution, and regulatory compliance. Known for its professionalism and client-focused approach, the firm delivers tailored solutions to meet diverse legal needs.",
+        website_link: "https://www.giwa-osagie.com/",
+        url: "/dfk-member/giwa-osagie-and-co",
+        url_param: "giwa-osagie-and-co",
+        business: {
+            title: "Doing Business in Nigeria",
+            intro: "Under Nigerian Law, business activities may be undertaken in Nigeria through any of the following entities: ",
+            entities: ["Private or Public Limited Liability Company", "Unlimited Liability Company", " Company Limited by Guarantee", "Partnership/Firm", "Sole Proprietorship", "Incorporated Trustees"],
+            description: "Specifically, the Companies and Allied Matters Act, Cap C20, Laws of the Federation of Nigeria (“LFN”) 2004 (“CAMA”) regulates the formation of business organizations, save for partnership/firm and sole proprietorship. Section 54 of CAMA provides that in order to ‘carry on business’ in Nigeria, a foreign company must be incorporated in Nigeria as an entity under the provisions of CAMA. The Nigerian company upon incorporation is a separate legal entity from its overseas parent. However, a foreign company may apply to the Federal Executive Council for exemption from the requirement to register in Nigeria if it belongs to one of the categories listed in Section 56 (1) of CAMA. ",
+            categories:{
+                 title: "The Categories are as follows:",
+                 list: ["Foreign companies invited to Nigeria by or with the approval of the Federal Government to execute any specified individual project;", "Foreign companies which are in Nigeria for the execution of specific individual loan projects on behalf of a donor country or international organisation; ", "Foreign Government-owned companies engaged solely in export promotion activities;", "Engineering consultants and technical experts engaged in any individual specialist project under contract with any of the governments in the Federation or any of their agencies or with any other body or person, where such contract has been approved by the Federal Government."]
+            },
+            outro: "Under Nigerian company law, a company having a share capital may either be registered as a private limited liability company, a public limited liability company or an unlimited company. Most non-Nigerians desirous of setting up entities in Nigeria usually establish private limited liability companies, at inception and may then, based on their business models, convert these to public limited liability entities at a later date. "
+      },
+      services: [
+            {
+                 id: 0,
+                 name: "Mining Law"
+            },
+            {
+                id: 1,
+                name: "White Collar Defence"
+            },
+            {
+                id: 2,
+                name: "Taxation"
+            },
+            {
+                id: 3,
+                name: "Shipping & International Trade"
+            },
+            {
+                id: 4,
+                name: "Risk and Regulatory Compliance"
+            },
+            {
+                id: 5,
+                name: "Real Estate"
+            },
+            {
+                id: 6,
+                name: "Project Finance"
+            },
+            {
+                id: 7,
+                name: "Privatization / PPP"
+            },
+            {
+                id: 8,
+                name: "Private Equity & Venture Capital"
+            },
+            {
+                id: 9,
+                name: "Private Clients & Wealth Management"
+            }
+      ],
+      team: [
+           {
+               id: 1,
+               name: "Osayaba Giwa-Osagie (SAN)",
+               position: "Senior Partner",
+               image: "/team/giwa/giwa.jpg",
+           },
+           {
+             id: 2,
+             name: "Bosede Giwa-Osagie",
+             position: "Partner",
+             image: "/team/giwa/bosede.jpg"
+           }
+      ]
+    },
+    {
+         id: 8948,
+         image: "",
+         name: "Levitt Kirson",
+         description: "Levitt Kirson is a renowned accounting and advisory firm in South Africa, offering expert services in auditing, taxation, and business consulting. With a commitment to precision and client success, the firm provides tailored solutions to support sustainable growth and compliance.",
+         website_link: "https://levittkirson.co.za/",
+         country: "South Africa",
+         url: "/dfk-member/levitt-kirson",
+         url_param: "levitt-kirson",
+         business: {
+              title: "Doing Business in South Africa",
+              intro: "South Africa is one of the most sophisticated, diverse and promising emerging markets globally.",
+              descriptions: [
+                    "Strategically located at the tip of the African continent, South Africa is a key investment location, both for the market opportunities that lie within its borders and for the opportunity that exists to use the country as a gateway to the rest of the continent, a market of nearly 1-billion people.",
+                    "South Africa has enormous potential as an investment destination, offering a unique combination of  highly developed first-world economic infrastructure with a vibrant emerging    market economy.",
+                    "It is also one of the most advanced, broad-based industrial and productive economies in Africa."
+              ],
+         },
+         services: [
+            {
+               id: 0,
+               name: "Auditing & Assurance"
+            },
+            {
+              id: 1,
+              name: "Business Advisory"
+            },
+            {
+              id: 2,
+              name: "Tax Consultation"
+            },
+            {
+              id: 3,
+              name: "Estate Administration, Trusts and Liquidations"
+            },
+            {
+               id: 4,
+               name: 'Human Resources and Payroll'
+            },
+            {
+               id: 5,
+               name: "Corporate Governance, Company Secretarial and Legal"
+            }
+        ],
+        team: [
+             {
+                  id: 0,
+                  name: "Len Furman CA(SA), H, DipBDP",
+                  position: "Chairman",
+                  image: "/team/levitt/len.jpg"
+             },
+             {
+                id: 1,
+                name: "Anton Lewis CA (SA) and Registered Auditor",
+                position: "Senior Partner",
+                image: "/team/levitt/anton.jpg"
+             },
+             {
+                id: 2,
+                name: "Marelize Els CA(SA) and Registered Auditor",
+                position: "Audit Partner",
+                image: "/team/levitt/marelize.jpg"
+             }
+        ]
+    }
 ]

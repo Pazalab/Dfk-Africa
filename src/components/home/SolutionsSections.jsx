@@ -69,10 +69,10 @@ const SolutionsSections = () => {
                                                 <h2>DFK Africa Members</h2>
 
                                                 <div className="members-content-row">
-                                                            { members.map(item => 
+                                                            { members.slice(0, 6).map(item => 
                                                                   <div className="member-content-moja" key={item.id}>
                                                                        <div className="logo-area">
-                                                                                  <img src={item.image} alt="" />
+                                                                                  { item.image == "" ? <h3>Levitt </h3> : <img src={item.image} alt="" />}
                                                                        </div>
                                                                        <div className="member-content-texts">
                                                                                   <h3>{item.name}</h3>

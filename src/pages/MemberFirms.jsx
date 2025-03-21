@@ -19,7 +19,7 @@ const MemberFirms = () => {
                                          { members.map(item => 
                                                                   <div className="member-content-moja" key={item.id}>
                                                                        <div className="logo-area">
-                                                                                  <img src={item.image} alt="" />
+                                                                                      { item.image == "" ? <h3>Levitt Kirson</h3> : <img src={item.image} alt="" />}
                                                                        </div>
                                                                        <div className="member-content-texts">
                                                                                   <h3>{item.name}</h3>

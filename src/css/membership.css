@@ -82,6 +82,14 @@
       color: var(--dfk-green);
 }
 
+.logo-area h3{
+     font-family: var(--levitt-font);
+     font-size: 35px;
+     text-align: center;
+     display: block;
+     margin: auto;
+}
+
 
 
 .business-section{
